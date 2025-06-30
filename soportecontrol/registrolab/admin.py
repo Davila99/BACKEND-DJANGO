@@ -1,4 +1,4 @@
 from django.contrib import admin
-from soportecontrol.registrolab.models import RegistroLab
+from registrolab.models import RegistroLab
 # Register your models here.
-admin.site.soportecontrol.register(RegistroLab)
+admin.site.register(RegistroLab)

@@ -12,4 +12,4 @@ class RegistroLab(models.Model):
 
 
     def __str__(self):
-        return f"{self.carrera} - {self.asignatura} - {self.docente} - {self.created_at.strftime('%Y-%m-%d %H:%M:%S')}"
+        return self.asignatura

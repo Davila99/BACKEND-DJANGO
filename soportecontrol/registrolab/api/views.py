@@ -1,6 +1,7 @@
 from rest_framework import viewsets
 from registrolab.models import RegistroLab
-from soportecontrol.registrolab.api.serializers import RegistroLabSerializer
+from registrolab.api.serializers import RegistroLabSerializer
+
 
 class RegistroViewSet(viewsets.ModelViewSet):
     """

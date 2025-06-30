@@ -3,5 +3,5 @@ from registrolab.api.views import RegistroViewSet
 
 
 router = DefaultRouter()
-router.register(r'registro', RegistroViewSet, basename='registro')
+router.register('registro', RegistroViewSet, basename='registro')
 urlpatterns = router.urls
